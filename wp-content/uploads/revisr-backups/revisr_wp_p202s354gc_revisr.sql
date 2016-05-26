@@ -19,12 +19,12 @@ CREATE TABLE `wp_p202s354gc_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_p202s354gc_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_p202s354gc_revisr` DISABLE KEYS */;
-INSERT INTO `wp_p202s354gc_revisr` VALUES (1,'2016-05-25 19:42:33','Successfully created a new repository.','init','cs633'),(2,'2016-05-25 19:44:02','Error staging files.','error','Revisr Bot'),(3,'2016-05-25 19:44:02','Error staging files.','error','Revisr Bot');
+INSERT INTO `wp_p202s354gc_revisr` VALUES (1,'2016-05-25 19:42:33','Successfully created a new repository.','init','cs633'),(2,'2016-05-25 19:44:02','Error staging files.','error','Revisr Bot'),(3,'2016-05-25 19:44:02','Error staging files.','error','Revisr Bot'),(4,'2016-05-25 19:44:03','Successfully backed up the database.','backup','Revisr Bot'),(5,'2016-05-25 19:44:03','The daily backup was successful.','backup','Revisr Bot'),(6,'2016-05-25 19:44:03','Successfully backed up the database.','backup','Revisr Bot'),(7,'2016-05-25 19:44:04','The daily backup was successful.','backup','Revisr Bot');
 /*!40000 ALTER TABLE `wp_p202s354gc_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
